@@ -1,0 +1,6 @@
+{
+  "name": "Sukoon (সুকুন)",
+  "description": "A deeply calming, empathetic, human-like AI emotional companion with real-time streaming responses, voice input and soft spoken replies, and soothing ambient rain.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
