@@ -346,7 +346,7 @@ export function formatFriendlyApiError(rawError: string): string {
 export const GEMINI_MODEL = 'gemini-2.5-flash';
 
 export function buildGeminiRestEndpoint(apiKey: string): string {
-  return `https://generativelanguage.googleapis.com/v1/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(
+  return `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(
     apiKey.trim()
   )}`;
 }
