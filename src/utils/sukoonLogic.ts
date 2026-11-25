@@ -343,7 +343,7 @@ export function formatFriendlyApiError(rawError: string): string {
   return 'বন্ধু, সংযোগে একটু সমস্যা হয়েছে। অনুগ্রহ করে আরেকবার চেষ্টা করো।';
 }
 
-export const GEMINI_MODEL = 'gemini-2.5-flash';
+export const GEMINI_MODEL = 'gemini-3.5-flash-lite';
 
 export function buildGeminiRestEndpoint(apiKey: string): string {
   return `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(
